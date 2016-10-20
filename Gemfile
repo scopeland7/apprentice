@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Set Ruby version to suppress Heroku warning
-ruby '2.2.3'
+ruby '2.2.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use puma server
@@ -9,7 +9,8 @@ gem 'puma', '~> 2.14.0'
 # Use sidekiq for workers
 gem 'sidekiq', '~> 3.3.2'
 # Use postgresql as the database for Active Record
-gem 'pg'
+# gem 'pg'
+gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
