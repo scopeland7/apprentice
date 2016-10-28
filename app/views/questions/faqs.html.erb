@@ -1,0 +1,10 @@
+<div class = "container">    
+    <h1>About Me</h1>
+    <ul>
+	    <% @questions.each do |item| %>
+	        <li><strong><%= item.question %></strong></li>
+	        <li><%= item.answer %></li>
+	        <br \>
+	    <% end %>
+    </ul>
+</div>
